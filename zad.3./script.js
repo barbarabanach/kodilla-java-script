@@ -2,14 +2,11 @@ var a = prompt("Wpisz swoja ulubiona liczbe...");
 var b = prompt("Jeszcze jedna...:)");
 
 
-formula = (a*a) + (2 * a * b) - (b*b)
-
-var value = (formula)
-
-console.log(formula)
+var value = (a*a) + (2 * a * b) - (b*b)
+console.log(value);
 
 
-if (value >= 0) {
+if (value > 0) {
     console.log('Wynik dodatni');
 } else {
     console.log('Wynik ujemny');
