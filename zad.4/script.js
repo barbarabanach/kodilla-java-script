@@ -6,8 +6,6 @@ function getTriangleArea(a, h) {
 
     console.log('Ujemny');
     return "Nieprawdidlowe dane"
-
-
 };
 
 console.log(getTriangleArea(10,6) );
